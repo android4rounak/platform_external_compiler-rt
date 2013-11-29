@@ -27,8 +27,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libcompiler-rt
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := STATIC_LIBRARIES
-LOCAL_CLANG := true
-LOCAL_CFLAGS := -integrated-as
+# LOCAL_CLANG := true
+# LOCAL_CFLAGS := -integrated-as
 
 # Pull in platform-independent functionality
 LOCAL_WHOLE_STATIC_LIBRARIES += libcompiler-rt-builtins libcompiler-rt-extras
